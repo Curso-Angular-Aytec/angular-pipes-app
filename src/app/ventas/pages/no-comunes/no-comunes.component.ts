@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
 })
 
 export class NoComunesComponent {
+  nombre: string = 'Susana';
+  genero: string = 'femenino';
 
+  invitacionMapa = {
+    'masculino': 'invitarlo',
+    'femenino': 'invitarla'
+  }
+  
+  clientes: string[] = ['Pedro', 'Juan', 'Edu', 'Nico'];
+
+  clientesMapa = {
+    '=0': 'no tenermos ningún cliente esperando',
+    '=1': 'tenemos un cliente esperando',
+    'other': 'tenemos # clientes esperando'
+  }
 }
