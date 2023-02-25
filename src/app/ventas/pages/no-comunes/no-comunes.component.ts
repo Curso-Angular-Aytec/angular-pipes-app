@@ -27,6 +27,20 @@ export class NoComunesComponent {
     direccion: 'Ciudad Real, España'
   }
 
+  heroes = [{
+    nombre: 'Superman',
+    vuela: true
+  },
+  {
+    nombre: 'Robin',
+    vuela: false
+  },
+  {
+    nombre: 'Aquaman',
+    vuela: false
+  }
+  ]
+
   cambiarCliente() {
     this.nombre = 'Carlos';
     this.genero = 'masculino';
