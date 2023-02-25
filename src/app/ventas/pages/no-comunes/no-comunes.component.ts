@@ -21,6 +21,12 @@ export class NoComunesComponent {
     'other': 'tenemos # clientes esperando'
   }
 
+  persona = {
+    nombre: 'Carlos',
+    edad: '22',
+    direccion: 'Ciudad Real, España'
+  }
+
   cambiarCliente() {
     this.nombre = 'Carlos';
     this.genero = 'masculino';
